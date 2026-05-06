@@ -9,7 +9,7 @@ from chatbot_engine import get_response
 from vision_engine import scan_qr_code
 
 # --- 1. CONFIGURATION (MUST BE FIRST) ---
-st.set_page_config(page_title="Hybrid NLP Chatbot", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Hybrid NLP Chatbot", layout="wide")
 
 # --- 2. SIDEBAR VISION LAB ---
 with st.sidebar:
