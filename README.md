@@ -1,4 +1,4 @@
-# Hybrid Multi-Modal Assistant (HMMA)
+# Hybrid Multi-Modal Assistant
 
 A sophisticated Proof-of-Concept (POC) chatbot that integrates traditional rule-based NLP, Generative AI, and Computer Vision into a single conversational interface.
 
@@ -6,7 +6,7 @@ A sophisticated Proof-of-Concept (POC) chatbot that integrates traditional rule-
 This project demonstrates a **Hybrid "Triage" Architecture**. It prioritizes precision and cost-efficiency by handling known queries through a local rule-based engine before falling back to the Google Gemini LLM for complex, non-predefined responses. Additionally, it features a vision pipeline for processing image-based data.
 
 # Key Features
-- **Hybrid NLP Engine**: Utilizes a tiered response system (JSON-based exact matching ➡️ Generative AI fallback).
+- **Hybrid NLP Engine**: Utilizes a tiered response system (JSON-based exact matching -> Generative AI fallback).
 - **Computer Vision Suite**: Integrated OpenCV modules for real-time Face Detection and QR Code decoding.
 - **Contextual Memory**: Maintains a stateful conversation history using Streamlit Session State.
 - **Security-First Design**: Implements environment variable management (`.env`) for sensitive API credentials.
