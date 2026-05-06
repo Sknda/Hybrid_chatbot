@@ -1,0 +1,13 @@
+{
+  "keywords": {
+    "hello": "Hi there! I am your hybrid assistant. How can I help you today?",
+    "internship": "That's exciting! Internship projects are a great way to learn Streamlit and NLP.",
+    "python": "Python is the backbone of this chatbot, handling both the rules and the AI fallback.",
+    "help": "I can answer specific questions about this project, or you can just chat with me normally!",
+    "hi": "Hello!",
+    "hey": "Hey there!",
+    "how are you": "I'm just a bunch of code, but I'm running smoothly! Thanks for asking.",
+    "what is your name": "I am a Hybrid Chatbot created using Streamlit and Gemini API.",
+    "face": "I can detect faces in images using OpenCV."
+  }
+}
